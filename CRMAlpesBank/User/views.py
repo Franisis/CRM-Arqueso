@@ -8,7 +8,7 @@ def verificar_cliente(request):
         # Simulación de verificación de cliente
         # Aquí puedes implementar una lógica de simulación, por ejemplo, generar un mensaje aleatorio
         
-        mensajes = ["Se registró con éxito la información", "Usuario ya existente"]
+        mensajes = ["0", "1"]
         mensaje = random.choice(mensajes)
 
         return JsonResponse({'mensaje': mensaje})
